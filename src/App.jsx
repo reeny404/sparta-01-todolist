@@ -1,12 +1,12 @@
 import { useState } from "react";
-import { Todo } from "./Todo";
-import { TodoList } from "./TodoList";
-import "./Week1.css";
+import "./App.css";
 import { Button } from "./components/Button";
 import { Input } from "./components/Input";
 import { Title } from "./components/Title";
+import { Todo } from "./components/Todo";
+import { TodoList } from "./components/TodoList";
 
-export function Week1() {
+export default function Week1() {
   const [title, setTitle] = useState("");
   const [desc, setDesc] = useState("");
   const [list, setList] = useState([
